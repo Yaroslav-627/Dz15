@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url("main_img.png");
+    height: 700px;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.logo{
+    text-transform: uppercase;
+    margin-top: 42px;
+     
+}
+.header_list{
+    display: flex;
+}
+.list_li{
+    list-style: none;
+    margin-top: 42px;
+}
+.li_text{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-right: 9px;
+    text-decoration: none;
+}
+.list_li:first-child{
+    margin-right: 0;
+}
+.main_title{
+    text-align: center;
+    margin: 0 auto;
+    width: 508px;
+}
+.title{
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    margin-top: 125px;
+}
+.little_title{   
+    font-family: Roboto;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 36px;
+}
+.button{
+    background-color: #FF4E50;
+    border: 0px;
+    padding: 13px 21px;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 33px;
+    color: #fff;
+}
+.title_partner{
+    margin-top: 303px;
+    font-family: Montserrat;
+    font-size: 22px;
+    text-align: center;
+}
+.partner{
+    display: flex;
+}
+.partner_people{
+    padding-left: 22px;
+}
+.partner_people:last-child{
+    margin-left: 0px;
+}
+.img_people{
+    display: flex;
+    margin: 0 auto;
+}
+.partner_img{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    border: 4px solid #fff;
+    padding: 6.8px 10.5px;
+    border-radius: 25px;
+}
+.icon_tv{
+    bottom: 1px;
+    right: 30px;
+    background: #FF4E50;
+}
+.icon_cup{
+    bottom: 1px;
+    right: 40px;
+    background: #1CD7AD;
+}
+.icon_chemistry{
+    bottom: 1px;
+    right: 60px;
+    background: #FFA507;
+}
+.icon_tg{
+    bottom: 1px;
+    right: 30px;
+    background: #4E73DB;
+    padding: 6.8px 8.5px;
+}
+.people_name{
+    text-align: center;
+}
+.people_text{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+.text_woman{
+    margin-top: 0px;
+}
+.text_man{
+    width: 247px;
+}
+.other_button{
+    background-color: transparent;
+    border: 2px solid #FF4E50;
+    min-height: 43px;
+    min-width: 228px;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FF4E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 37px;
+    margin-bottom: 72px;
+}
