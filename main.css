@@ -41,7 +41,14 @@ ul{
     margin-right: 9px;
     text-decoration: none;
 }
-.list_li:first-child{
+.li_border{
+    background: rgba(26, 25, 21, 0.0001);
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 17px;
+    padding: 6.5px 17px;
+}
+.list_li:last-child{
     margin-right: 0;
 }
 .main_title{
